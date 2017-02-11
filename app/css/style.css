@@ -1,0 +1,27 @@
+/* Fixed toolbar */
+md-toolbar.high-index
+{
+	z-index:3;
+	position:fixed;
+	top:0;
+	}
+md-toolbar.low-index
+{
+	z-index:1;
+	}
+
+/* Switch icon colors */
+
+md-input-container:not(.md-input-invalid) > md-icon.username,
+md-input-container:not(.md-input-invalid) > md-icon.email,
+md-input-container:not(.md-input-invalid) > md-icon.password
+{
+	color:blue;
+	}
+
+md-input-container.md-input-invalid > md-icon.username,
+md-input-container.md-input-invalid > md-icon.email,
+md-input-container.md-input-invalid > md-icon.password
+{
+	color:red;
+	}
